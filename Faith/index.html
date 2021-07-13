@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Faith and Hope</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h3 class="logo">Faith & Hope</h3>
+            <div class="toggle"></div>
+        </header>
+        <video src="faith.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Faith and Hope</h2>
+            <h3>Strengthen your Faith and increase your hope</h3>
+           
+            <a href="contact.html">Join Us</a>
+        </div>
+
+        <ul class="social">
+            <li><a href=""><img src="https://i.ibb.co/x7P24fL/facebook.png" alt=""></a></li>
+            <li><a href=""><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" alt=""></a></li>
+            <li><a href=""><img src="https://i.ibb.co/ySwtH4B/instagram.png" alt=""></a></li>
+        </ul>
+
+    </section>
+
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+    </div>
+
+
+    
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
